@@ -1,0 +1,17 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#content{
+    display: flex;
+}
+#logo{
+    flex:1;
+    background-image: url(Images/halie-west-25xggax4bSA-unsplash.jpg);
+}
+#form{
+    flex:2;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
