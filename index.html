@@ -25,7 +25,7 @@
             <h2>This is not a real online service! You know you need something like this in your life to help you realize your deepest dreams. Sign up <i>now</i> to get started. </h2>
             <h2>You <i>know</i> you want to.</h2>
             
-            <form action="">
+            <form action="" onsubmit="return false;">
 
                 <div id="form-block">
                     <h2>Let's do this!</h2>
@@ -65,14 +65,15 @@
 
                 </div>
                 <div id="form-lower">
-                    <button type="submit">Create Account</button>
+                    <button>Create Account</button>
 
                     <p>Already have an account? <span><a href="">Log in</a></span></p>
+                    <p id="msg"></p>
                 </div>
                 
             </form>
         </div>
     </div>
-    
+    <script src="script.js"></script>
 </body>
 </html>
